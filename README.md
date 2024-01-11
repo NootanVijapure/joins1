@@ -20,3 +20,26 @@ Explain the results obtained from the query.
 
 Write a query using Full Join to get a comprehensive list of both gift recipients and gifts. Include recipients without gifts and gifts without assigned recipients.
 Discuss the outcomes of the query and when such results might be useful in a Christmas context.
+
+## gift_recipients table entries:
++--------------+---------------+
+| recipient_id | recipient_name|
++--------------+---------------+
+|      1       |    John       |
+|      2       |    Mary       |
+|      3       |    Sarah      |
+|      4       |    Tom        |
+|      5       |    Emily      |
++--------------+---------------+
+
+## gifts table entries:
++---------+-----------+----------------+
+| gift_id | gift_name | recipient_id   |
++---------+-----------+----------------+
+|    1    |   Toy A   |       1        |
+|    2    |   Book B  |       2        |
+|    3    |   Candy C |       1        |
+|    4    |   Toy D   |       3        |
+|    5    |   Book E  |       6        |
++---------+-----------+----------------+
+
